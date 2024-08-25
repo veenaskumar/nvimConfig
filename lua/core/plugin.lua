@@ -44,6 +44,7 @@ return require("packer").startup(function(use)
 	use("windwp/nvim-autopairs")
 	use("tpope/vim-fugitive")
 	use("lewis6991/gitsigns.nvim")
+	use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
 	-- use 'foo1/bar1.nvim'
 	-- use 'foo2/bar2.nvim'
 
