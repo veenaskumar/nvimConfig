@@ -6,4 +6,7 @@ require("core/plugins/lualine")
 require("core/plugins/nvimtree")
 require("core/plugins/webdevicons")
 require("core/plugins/telescope")
-
+require("core/plugins/lsp-config")
+require("core/plugins/completions")
+require("core/plugins/autopairs")
+require("core/plugins/formatter")
