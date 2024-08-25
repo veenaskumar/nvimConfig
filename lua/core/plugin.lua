@@ -43,6 +43,7 @@ return require("packer").startup(function(use)
 	use("stevearc/conform.nvim")
 	use("windwp/nvim-autopairs")
 	use("tpope/vim-fugitive")
+	use("lewis6991/gitsigns.nvim")
 	-- use 'foo1/bar1.nvim'
 	-- use 'foo2/bar2.nvim'
 
