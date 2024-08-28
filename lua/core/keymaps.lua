@@ -9,14 +9,17 @@ end
 vim.g.mapleader = " "
 
 -- window
-
+vim.opt.clipboard = "unnamedplus"
 map("n", "<C-h>", "<C-w>h")
 map("n", "<C-j>", "<C-w>j")
 map("n", "<C-k>", "<C-w>k")
 map("n", "<C-l>", "<C-w>l")
 
 --clear search which highligth
-
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.bo.softtabstop = 2
 map("n", "<leader>c", ":nohl<CR>")
 
 -- Reload configuration without restart nvim
