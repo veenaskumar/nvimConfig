@@ -23,6 +23,7 @@ return require("packer").startup(function(use)
 		"nvim-lualine/lualine.nvim",
 		requires = { "nvim-tree/nvim-web-devicons", opt = true },
 	})
+	use("tpope/vim-commentary")
 	use("nvim-tree/nvim-tree.lua")
 	use("nvim-tree/nvim-web-devicons")
 	use({
@@ -30,6 +31,7 @@ return require("packer").startup(function(use)
 		requires = { "nvim-lua/plenary.nvim" },
 	})
 	use("hrsh7th/nvim-cmp")
+	use("windwp/nvim-ts-autotag")
 	use("hrsh7th/cmp-nvim-lsp")
 	use("L3MON4D3/LuaSnip")
 	use("saadparwaiz1/cmp_luasnip")
@@ -40,6 +42,7 @@ return require("packer").startup(function(use)
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	})
+	use("nvim-treesitter/nvim-treesitter-refactor")
 	use("stevearc/conform.nvim")
 	use("windwp/nvim-autopairs")
 	use("tpope/vim-fugitive")

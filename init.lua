@@ -12,3 +12,13 @@ require("core/plugins/autopairs")
 require("core/plugins/formatter")
 require("core/plugins/gitsigns")
 require("core/plugins/bufferline")
+require("core/plugins/refactor")
+
+vim.cmd([[
+  autocmd BufNewFile,BufRead *.jsx set filetype=javascriptreact
+]])
+
+-- Ensure Neovim recognizes .tsx as typescriptreact
+vim.cmd([[
+  autocmd BufNewFile,BufRead *.tsx set filetype=typescriptreact
+]])
