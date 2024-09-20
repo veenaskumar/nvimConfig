@@ -174,6 +174,11 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["render-markdown.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/render-markdown.nvim",
+    url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+  },
   ["tabout.nvim"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/tabout.nvim",

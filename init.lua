@@ -13,6 +13,7 @@ require("core/plugins/formatter")
 require("core/plugins/gitsigns")
 require("core/plugins/bufferline")
 require("core/plugins/refactor")
+require("core/plugins/markdown-nvim")
 
 vim.cmd([[
   autocmd BufNewFile,BufRead *.jsx set filetype=javascriptreact
