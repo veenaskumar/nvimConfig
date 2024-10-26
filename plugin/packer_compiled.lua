@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -98,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
+  },
+  ["flash.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/flash.nvim",
+    url = "https://github.com/folke/flash.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -139,6 +149,16 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-surround"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/nvim-surround",
+    url = "https://github.com/kylechui/nvim-surround"
+  },
+  ["nvim-tmux-navigation"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/nvim-tmux-navigation",
+    url = "https://github.com/alexghergh/nvim-tmux-navigation"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -179,10 +199,20 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/render-markdown.nvim",
     url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
   },
+  ["snipe.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/snipe.nvim",
+    url = "https://github.com/leath-dub/snipe.nvim"
+  },
   ["tabout.nvim"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/tabout.nvim",
     url = "https://github.com/abecodes/tabout.nvim"
+  },
+  ["tailwind-tools.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/tailwind-tools.nvim",
+    url = "https://github.com/luckasRanarison/tailwind-tools.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -193,11 +223,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
-  },
-  ["vim-commentary"] = {
-    loaded = true,
-    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/vim-commentary",
-    url = "https://github.com/tpope/vim-commentary"
   },
   ["vim-fugitive"] = {
     loaded = true,

@@ -15,6 +15,11 @@ map("n", "<C-j>", "<C-w>j")
 map("n", "<C-k>", "<C-w>k")
 map("n", "<C-l>", "<C-w>l")
 
+-- move entire line above
+vim.api.nvim_set_keymap("v", "K", ":m '<-2<CR>gv=gv", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "J", ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
+-- splitting nvim keymap
+map("n", "<C-v>", ":vertical split<CR>")
 --clear search which highligth
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 2
@@ -61,3 +66,27 @@ map("n", "<leader>gp", ":Gitsigns preview_hunk<CR>")
 map("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>")
 map("n", "<leader>g", ":Git<CR>")
 map("n", "<C-i>", ":BufferLineCycleNext<CR>")
+
+---flash keymap
+local flash = require("flash")
+vim.keymap.set("n", "s", function()
+	flash.jump()
+end, { noremap = true, silent = true, desc = "Flash Jump" })
+
+vim.keymap.set("n", "S", function()
+	flash.treesitter()
+end, { desc = "Flash Treesitter" })
+vim.keymap.set("o", "r", function()
+	flash.remote()
+end, { desc = "Remote Flash" })
+vim.keymap.set({ "n", "x", "o" }, "R", function()
+	flash.treesitter_search()
+end, { desc = "Treesitter Search" })
+vim.keymap.set("c", "<c-s>", function()
+	flash.toggle()
+end, { desc = "Toggle Flash Search" })
+
+-- keymappings for comments
+
+vim.keymap.set("n", "<Leader>/", "gcc", { remap = true })
+vim.keymap.set("v", "<Leader>/", "gb", { remap = true })
