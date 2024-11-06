@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bluloco.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/bluloco.nvim",
+    url = "https://github.com/uloco/bluloco.nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -104,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
   },
+  everforest = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["flash.nvim"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/flash.nvim",
@@ -114,10 +124,30 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["github-colors"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/github-colors",
+    url = "https://github.com/lourenci/github-colors"
+  },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["gruvbox-baby"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
+    url = "https://github.com/luisiacc/gruvbox-baby"
+  },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -133,6 +163,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  neon = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/neon",
+    url = "https://github.com/rafamadriz/neon"
+  },
+  ["night-owl.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/night-owl.nvim",
+    url = "https://github.com/oxfist/night-owl.nvim"
+  },
+  ["nordern.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/nordern.nvim",
+    url = "https://github.com/fcancelinha/nordern.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -204,6 +249,16 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/snipe.nvim",
     url = "https://github.com/leath-dub/snipe.nvim"
   },
+  ["solarized-osaka.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/solarized-osaka.nvim",
+    url = "https://github.com/craftzdog/solarized-osaka.nvim"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   ["tabout.nvim"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/tabout.nvim",
@@ -228,6 +283,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-nightfly-colors"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
+    url = "https://github.com/bluz71/vim-nightfly-colors"
   }
 }
 
