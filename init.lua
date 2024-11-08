@@ -21,6 +21,9 @@ require("core/plugins/bufferline")
 require("core/plugins/refactor")
 require("core/plugins/markdown-nvim")
 require("core/plugins/comment")
+-- testing the custom script
+-- require("custom-scripts.autogenerate-markdown")
+
 
 vim.cmd([[
  autocmd BufNewFile,BufRead *.jsx set filetype=javascriptreact
