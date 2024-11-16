@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
   },
+  ["cyberdream.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
+    url = "https://github.com/scottmckendry/cyberdream.nvim"
+  },
   everforest = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/everforest",

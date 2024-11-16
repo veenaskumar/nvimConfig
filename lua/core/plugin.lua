@@ -25,6 +25,7 @@ return require("packer").startup(function(use)
   use("folke/tokyonight.nvim")
   use("sainnhe/sonokai")
   use("sainnhe/everforest")
+  use { "scottmckendry/cyberdream.nvim" }
   use("MeanderingProgrammer/render-markdown.nvim")
   use("nvim-treesitter/nvim-treesitter")
   use({

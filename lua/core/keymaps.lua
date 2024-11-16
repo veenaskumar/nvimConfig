@@ -92,9 +92,6 @@ vim.keymap.set("n", "<Leader>/", "gcc", { remap = true })
 vim.keymap.set("v", "<Leader>/", "gb", { remap = true })
 
 
-
-
-
 -- create a custom keybinding to run a custom script
 vim.keymap.set("n", "<leader>cm", function()
     local wholeDate = os.date("*t")
@@ -102,7 +99,6 @@ vim.keymap.set("n", "<leader>cm", function()
     local month_name = os.date("%B")
     local year = wholeDate.year
     local getFilename = vim.fn.expand("%:e")
-    print(type(month_name))
     if getFilename == "md" then
       vim.api.nvim_buf_set_lines(0, 0, 0, true, {
         "## " .. date .. "-" .. month_name .. "-" .. year,
@@ -111,3 +107,15 @@ vim.keymap.set("n", "<leader>cm", function()
     end
   end,
   { noremap = true, silent = true })
+
+
+-- create a custom script to automate the marking process of task
+vim.keymap.set('n', '<leader>m', function()
+  if (vim.fn.expand("%:e") == "md") then
+    local currentLine = vim.api.nvim_get_current_line()
+    local currentLineNumber = unpack(vim.api.nvim_win_get_cursor(0))
+    print(currentLineNumber)
+    local Markedtask = currentLine:sub(1, 3) .. "x" .. currentLine:sub(5, #currentLine)
+    vim.api.nvim_buf_set_lines(0, currentLineNumber - 1, currentLineNumber, true, { Markedtask })
+  end
+end)
