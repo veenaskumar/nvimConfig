@@ -149,6 +149,16 @@ _G.packer_plugins = {
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
     url = "https://github.com/luisiacc/gruvbox-baby"
   },
+  ["indentmini.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/indentmini.nvim",
+    url = "https://github.com/nvimdev/indentmini.nvim"
+  },
+  ["lazydocker.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/lazydocker.nvim",
+    url = "https://github.com/crnvl96/lazydocker.nvim"
+  },
   ["lazygit.nvim"] = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
@@ -188,6 +198,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/veenas/.local/share/nvim/site/pack/packer/start/nordern.nvim",
     url = "https://github.com/fcancelinha/nordern.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/veenas/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,

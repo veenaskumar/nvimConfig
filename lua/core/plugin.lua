@@ -32,6 +32,18 @@ return require("packer").startup(function(use)
     "nvim-lualine/lualine.nvim",
     requires = { "nvim-tree/nvim-web-devicons", opt = true },
   })
+  --[[  use({
+    "mgierada/lazydocker.nvim",
+    requires = { "akinsho/toggleterm.nvim" },
+  }) ]]
+
+  --[[   use({
+    "crnvl96/lazydocker.nvim",
+    requires = {
+      "MunifTanjim/nui.nvim",
+    },
+  }) ]]
+  use("nvimdev/indentmini.nvim")
   use("luckasRanarison/tailwind-tools.nvim")
   use("kylechui/nvim-surround")
   use("nvim-tree/nvim-tree.lua")
