@@ -89,7 +89,7 @@ end, { desc = "Toggle Flash Search" })
 -- keymappings for comments
 
 vim.keymap.set("n", "<Leader>/", "gcc", { remap = true })
-vim.keymap.set("v", "<Leader>/", "gb", { remap = true })
+vim.keymap.set("v", "<Leader>cb", "gb", { remap = true })
 vim.keymap.set("n", "<leader>k", "LazyDocker<CR>", { desc = "Toggle LazyDocker", noremap = true, silent = true })
 
 -- create a custom keybinding to run a custom script

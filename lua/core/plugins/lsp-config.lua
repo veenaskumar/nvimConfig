@@ -1,13 +1,15 @@
 local lspconfig = require("lspconfig")
 require("mason").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "html", "cssls", "clangd", "ts_ls", },
+  ensure_installed = { "lua_ls", "html", "cssls", "clangd", "ts_ls", "tailwindcss" },
 })
 require("lspconfig").lua_ls.setup({})
 require("lspconfig").html.setup({})
 require("lspconfig").clangd.setup({})
 require("lspconfig").java_language_server.setup({})
 require("lspconfig").cssls.setup({})
+require("lspconfig").tailwindcss.setup({})
+
 -- require("lspconfig").luaformatter.setup({})
 -- require("lspconfig").tailwindcss.setup({})
 lspconfig.ts_ls.setup({
