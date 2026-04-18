@@ -34,7 +34,10 @@ map("n", "<leader>r", ":so %<CR>")
 map("n", "<leader>s", ":w<CR>")
 
 -- Close all windows and exit from Neovim with <leader> and q
-map("n", "<leader>q", ":q!<CR>")
+map("n", "<leader>q", ":q<CR>")
+
+-- close a window in a force manner
+map("n", "<leader>x", "q!<CR>")
 
 -- terminal commands
 vim.api.nvim_set_keymap("n", "<leader>th", ":belowright split | terminal<CR>", { noremap = true, silent = true }) --open the terminal in belowright in horzontal way

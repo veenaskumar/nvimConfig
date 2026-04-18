@@ -36,3 +36,10 @@ vim.cmd([[
 vim.cmd([[
   autocmd BufNewFile,BufRead *.tsx set filetype=typescriptreact
 ]])
+vim.opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
+
+vim.api.nvim_create_autocmd("VimLeave", {
+  callback = function()
+    vim.api.nvim_chan_send(vim.v.stderr, "\27[6 q")
+  end,
+})
